@@ -1,0 +1,17 @@
+APScheduler==3.6.0
+Django==2.2
+django-apscheduler==0.3.0
+django-cors-headers==2.5.2
+django-ranged-response==0.2.0
+django-redis==4.10.0
+djangorestframework==3.9.2
+djangorestframework-jwt==1.11.0
+djangorestframework-stubs==0.4.2
+Pillow==6.0.0
+PyJWT==1.7.1
+PyMySQL==0.9.3
+pytz==2019.1
+redis==3.2.1
+six==1.12.0
+sqlparse==0.3.0
+tzlocal==1.5.1
