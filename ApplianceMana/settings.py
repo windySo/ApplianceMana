@@ -147,11 +147,11 @@ MEDIA_DIRS = [
 #邮箱设置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com' #发送邮件的SMTP服务器
-EMAIL_HOST_USER = '993626547@qq.com'
-EMAIL_HOST_PASSWORD = 'zmiubfzrzoonbdia'
+EMAIL_HOST_USER = 'XXX'
+EMAIL_HOST_PASSWORD = 'PASSWORD'
 EMAIL_PORT = 25 #发件箱的SMTP服务器端口
 EMAIL_USE_TLS = True #使用TLS安全传输协议
-DEFAULT_FROM_EMAIL = 'aohashi<993626547@qq.com>'
+DEFAULT_FROM_EMAIL = 'XXX'
 
 
 # JWT配置
@@ -172,7 +172,7 @@ AUTHENTICATION_BACKENDS = [
 CACHES = {
     'default': {
         'BACKEND': 'django_redis.cache.RedisCache',
-        'LOCATION': 'redis://47.102.215.192:6379',
+        'LOCATION': 'redis://localhost',
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         },
