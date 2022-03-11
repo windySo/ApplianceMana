@@ -7,7 +7,7 @@ django-redis==4.10.0
 djangorestframework==3.9.2
 djangorestframework-jwt==1.11.0
 djangorestframework-stubs==0.4.2
-Pillow==6.0.0
+Pillow==9.0.1
 PyJWT==1.7.1
 PyMySQL==0.9.3
 pytz==2019.1
